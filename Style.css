@@ -1,0 +1,124 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.about_me h1{
+    font-size: clamp(2rem,10vw,3rem);
+    line-height: clamp(2rem,10vw,3rem);
+    margin: clamp(24px, 5vw, 64px) 0;
+    white-space: pre-wrap;
+}
+
+.about_me img{
+    display: flex;
+    max-width: 300px;
+    border-radius: 200px;
+}
+
+.about_me_p{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    font-size: clamp(1rem,5vw,1.5rem);
+}
+
+.my_stack h3{
+    padding-block: 20px;
+    font-size: clamp(1.25rem,10vw,1.75rem);
+}
+
+.about_me_p a{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: plum;
+    color: black;
+}
+
+.about_me_p a:hover{
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+
+.stack{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.item_stack{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    font-size: clamp(1rem,5vw,1.5rem);
+
+}
+
+.item_stack_img{
+    max-width: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons button {
+    background-color: plum;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    max-width: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button:hover {
+    background-color: darkorchid;
+}
+
+.buttons button:focus {
+    outline: none;
+    box-shadow: 0 0 5px black;
+}
+

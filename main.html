@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+    <div class="about_me">
+        <img src="photo_2023-08-12_16-23-11.jpg" alt="Me">
+        <h1 id="greeting">Всем привет! Меня зовут Иван Веденеев</h1>
+        <div class="buttons">
+            <button onclick="switchLanguage('ru')">Ru</button>
+            <button onclick="switchLanguage('en')">En</button>
+        </div>
+        <div class="about_me_p">
+            <p id="introduction">
+                Я фронтенд-разработчик проживающий в Москве. Изучаю вэб и учусь в МИСИС.
+            </p>
+            <p id="contact">
+                Стараюсь писать красиво и эффективно. Прикрепляю свой
+                <a href="https://github.com/vedko04">Github</a>
+                , чтобы вы имели возможность посмотреть мои проекты.
+                Также можете писать мне в
+                <a href="https://vk.com/ivan_vedko">VK</a>
+                или
+                <a href="https://t.me/Ivan_vedko">Telegram</a>
+                , я всегда на связи! Рад новым знакомствам и опыту)
+            </p>
+        </div>
+    </div>
+    <div class="my_stack">
+        <h3 id="stackTitle">Мой стэк знаний</h3>
+        <ul class="stack">
+            <li class="item_stack"><img src="html.svg" alt="html" class="item_stack_img">HTML</li>
+            <li class="item_stack"><img src="css.svg" alt="css" class="item_stack_img">CSS</li>
+            <li class="item_stack"><img src="js.svg" alt="js" class="item_stack_img">JavaScript</li>
+            <li class="item_stack"><img src="git.svg" alt="git" class="item_stack_img">Git</li>
+            <li class="item_stack"><img src="sql.svg" alt="sql" class="item_stack_img">SQL</li>
+        </ul>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
