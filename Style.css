@@ -43,7 +43,8 @@ p{
 .about_me img{
     display: flex;
     max-width: 300px;
-    border-radius: 200px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px black;
 }
 
 .about_me_p{
@@ -78,6 +79,7 @@ p{
     flex-direction: column;
     gap: 10px;
     list-style: none;
+    padding-bottom: 30px;
 }
 
 .item_stack{

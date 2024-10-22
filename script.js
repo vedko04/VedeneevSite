@@ -21,10 +21,19 @@ const translations = {
     }
 };
 
-// Функция для переключения языка
 function switchLanguage(lang) {
     document.getElementById('greeting').innerHTML = translations[lang].greeting;
     document.getElementById('introduction').innerHTML = translations[lang].introduction;
     document.getElementById('contact').innerHTML = translations[lang].contact;
     document.getElementById('stackTitle').textContent = translations[lang].stackTitle;
 }
+// function transition() {
+//      document.getElementById('greeting').innerHTML = translations[lang].greeting;
+//      document.getElementById('introduction').innerHTML = translations[lang].introduction;
+//      document.getElementById('contact').innerHTML = translations[lang].contact;
+//      document.getElementById('stackTitle').textContent = translations[lang].stackTitle;
+// }
+//
+// click.addEventListener("click", transition());
+//
+// elem.addEventListener('click', transition());
