@@ -1,28 +1,49 @@
 *{
-    font-family: "Roboto", sans-serif;
+    font-family: "Jost", sans-serif;
     margin: 0;
     width: 100%;
     padding: 0;
 }
 
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+.buttons{
+    display: flex;
+    justify-content: end;
+}
+
 
 p{
     font-size: 30px;
 }
 
-.main{
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 50%;
+    width: clamp(70rem,10vw,90rem);
     padding-top: 50px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
 }
 
 .about_me{
@@ -124,3 +145,11 @@ p{
     box-shadow: 0 0 5px black;
 }
 
+@media (max-width: 800px) {
+    .main-info{
+        flex-direction: column;
+    }
+    p{
+        font-size: 20px;
+    }
+}
